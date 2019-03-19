@@ -9,7 +9,7 @@
     <version>1.0-SNAPSHOT</version>
 
     <name>TestTask_BilykAleksandr</name>
-    <url></url>
+    <url>https://ipromotesttask.herokuapp.com/</url>
 
     <properties>
         <java.version>1.8</java.version>
@@ -51,7 +51,7 @@
                 <version>1.6.8</version>
                 <configuration>
                     <container>
-                        <containerId>tomcat8x</containerId>
+                        <containerId>tomcat9x</containerId>
                         <systemProperties>
                             <file.encoding>UTF-8</file.encoding>
                             <spring.profiles.active>tomcat,datajpa</spring.profiles.active>

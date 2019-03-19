@@ -6,9 +6,12 @@ import java.util.ArrayList;
 
 public class JDBC_Repository {
 
-    private static String user = "root";
-    private static String url = "jdbc:mysql://localhost:3306/testipromo?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
-    private static String password = "3199518893Bilyk";
+    //private static String user = "root";
+    //private static String url = "jdbc:mysql://localhost:3306/testipromo?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
+    //private static String password = "my password";
+    private static String user = "b2ea8f267f6bb3";
+    private static String password = "a4f52b57";
+    private static String url = "jdbc:mysql://eu-cdbr-west-02.cleardb.net:3306/heroku_8b3c7decb1041b9?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
 
 
     public static int Update(int serialNumber, int id) {
