@@ -4,16 +4,7 @@ import com.mashape.unirest.http.exceptions.UnirestException;
 import ipromo_base.GenerateCode;
 import ipromo_base.ValidateEmail;
 import ipromo_base.model.Person;
-import ipromo_base.model.StockClass;
 import ipromo_base.repository.ActiveCampaignRepository;
-import ipromo_base.repository.JDBC_Repository;
-import org.apache.http.client.HttpResponseException;
-import org.springframework.jdbc.core.JdbcTemplate;
-import org.springframework.jdbc.datasource.SimpleDriverDataSource;
-
-import java.io.IOException;
-import java.util.List;
-
 public class PersonService {
     private ActiveCampaignRepository repository;
 
