@@ -1,0 +1,37 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="ipromo_TestTask_BilykAleksandr:war exploded">
+    <output-path>$PROJECT_DIR$/target/testtask</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>ipromo_TestTask_BilykAleksandr</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="ipromo_TestTask_BilykAleksandr" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
+          <element id="library" level="project" name="Maven: com.mashape.unirest:unirest-java:1.4.9" />
+          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpclient:4.5.6" />
+          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpcore:4.4.10" />
+          <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.2" />
+          <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.10" />
+          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpasyncclient:4.1.4" />
+          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpcore-nio:4.4.10" />
+          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpmime:4.5.6" />
+          <element id="library" level="project" name="Maven: org.json:json:20180813" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:8.0.15" />
+          <element id="library" level="project" name="Maven: com.google.protobuf:protobuf-java:3.6.1" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/testtask/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="ipromo_TestTask_BilykAleksandr/web/Web" />
+    </root>
+  </artifact>
+</component>
